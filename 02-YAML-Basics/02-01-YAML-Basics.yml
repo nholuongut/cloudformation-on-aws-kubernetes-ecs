@@ -1,0 +1,53 @@
+
+#Key Value Pairs
+Name: Nho Luong
+Age: 29
+Gpa: 8.5
+Occupation: Engineer
+State: 'Ho Chi Minh'
+AboutMe: "I am a DevOps Engineer Lead"
+Male: true
+DateOfBith: 1990-09-15T15:53:00
+PoliceCases: null
+
+#YAML Lists
+Persons:
+  - nholuong
+Persons: [nholuong]
+
+#YAML Dictionary
+Dave:
+  Age: 25
+  Occupation: Engineer
+  State: Ho Chi Minh
+  gpa: 4.5
+  male: true
+
+#YAML Pipe
+Dave:
+  Age: 25
+  Occupation: Engineer
+  State: Ho Chi Minh
+  gpa: 4.5
+  male: true
+  Address: |
+    75 To Hieu Street
+    Hiep Tan
+    Ho Chi Minh 07102
+    999-999-9999
+
+
+#YAML Greater than Sign
+Dave:
+  Age: 25
+  Occupation: Engineer
+  State: Ho Chi Minh
+  gpa: 4.5
+  male: true
+  AboutMe: >
+    I'm an experienced DevOps Engineer with a strong background 
+    in both on-premises and cloud platforms (Azure, AWS, GCP and
+    DigitalOcean), CI/CD implementation, and infrastructure automation.
+    Skilled in IaC, containerization, Kubernetes, and various DevOps tools.
+
+
